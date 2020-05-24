@@ -24,12 +24,17 @@ body,html{
     padding: 0 20px;
 }
 .btn{
-    /* display: block; */
-    padding: 8px 15px;
+    display: inline-block;
+    padding: 13px 20px;
     background:black;
     color:white;
-    margin-top: 20px;
-
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #333;
+    background: chocolate;
 }
 /* **************** */
 #navbar{
@@ -69,11 +74,15 @@ body,html{
     padding-top: 250px;
     
 }
-#showcase h1{
+#showcase .showcase-content h1{
     font-size: 60px;
     line-height: 1.2em;
 
 }
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+}
+
 .paint-chocolate{
     color: chocolate;
 }
