@@ -20,7 +20,7 @@ h1,h2,h3{
     max-width: 1100px;
     padding-left: 10px;
 }
-.paint-chocolate{
+.paint-coral{
     color: coral;
 }
 .btn{
@@ -48,7 +48,7 @@ h1,h2,h3{
     background: #f4f4f4;
     color: #333;
 }
-.bg-chocolate{
+.bg-coral{
     background:coral;
     color: #333;
 }
@@ -107,13 +107,13 @@ h1,h2,h3{
 #home-info{
     height: 400px;
 }
-#home-info .info-img{
-    background: url('../img/photo-1.jpg');
+#home-info .img-info{
+    background: url('../img/photo-1.jpg') no-repeat;
     float: left;
     width: 50%;
     min-height: 100%;
 }
-#home-info .info-content{
+#home-info .content-info{
     float: right;
     overflow: hidden;
     width: 50%;
@@ -121,8 +121,8 @@ h1,h2,h3{
     text-align: center;
     padding: 50px 30px;
 }
-#home-info .info-content p{
-    padding-bottom: 30px;
+#home-info .content-info p{
+    padding-bottom: 50px;
 }
 /* features */
 .box{
