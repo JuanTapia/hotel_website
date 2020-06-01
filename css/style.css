@@ -49,8 +49,11 @@ h1,h2,h3{
     color: #333;
 }
 .bg-chocolate{
-    background: #333;
-    color: coral;
+    background:coral;
+    color: #333;
+}
+.clear{
+    clear: both;
 }
 /* Navbar */
 #navbar{
@@ -120,4 +123,19 @@ h1,h2,h3{
 }
 #home-info .info-content p{
     padding-bottom: 30px;
+}
+/* features */
+.box{
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+/* Footer */
+#main-footer{
+    text-align: center;
+    padding: 10px;
 }
