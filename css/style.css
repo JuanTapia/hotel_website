@@ -47,6 +47,14 @@ p{
     background: #333;
     color: #fff;
 }
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-coral{
+    background: coral;
+    color: #333;
+}
 .btn-light{
     background: #f4f4f4;
     color: #333;
@@ -119,4 +127,17 @@ p{
 }
 #home-info .content-info p{
     padding-bottom: 50px;
+}
+/* features */
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    text-align: center;
+}
+#main-footer{
+    text-align: center;
+    background: #333;
+    color: #f4f4f4;
+    font-size: 14px;
 }
