@@ -21,12 +21,17 @@ p{
     max-width: 1100px;
     margin: auto;
     overflow: auto;
+<<<<<<< HEAD
     padding: 0 20px;
+=======
+    margin-left: 10px;
+>>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
 }
 .paint-coral{
     color: coral;
 }
 .btn{
+<<<<<<< HEAD
     background: #333;
     color: #fff;
     display: inline-block;
@@ -46,6 +51,27 @@ p{
 .bg-dark{
     background: #333;
     color: #fff;
+=======
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 13px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background: coral;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+>>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
 }
 .bg-light{
     background: #f4f4f4;
@@ -59,12 +85,15 @@ p{
     background: #f4f4f4;
     color: #333;
 }
+<<<<<<< HEAD
 .l-heading{
     font-size: 40px;
 }
 .py-1{padding: 10px 0;}
 .py-2{padding: 20px 0;}
 .py-3{padding: 30px 0;}
+=======
+>>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
 /* Navbar */
 #navbar{
     background: #333;
@@ -141,6 +170,7 @@ p{
     padding: 30px;
     text-align: center;
 }
+<<<<<<< HEAD
 /* About */
 
 #about-info .info-left{
@@ -160,11 +190,17 @@ p{
    border-radius: 50%;
 }
 /* Footer */
+=======
+>>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
 #main-footer{
     text-align: center;
     background: #333;
     color: #f4f4f4;
     font-size: 14px;
+<<<<<<< HEAD
 }
 /* solo un comentario2 */
 /* esto va para probar */
+=======
+}
+>>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
