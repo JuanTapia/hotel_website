@@ -1,3 +1,4 @@
+/* Initinal Reset */
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +9,8 @@ body,html{
     line-height: 1.7em;
 }
 a{
-    text-decoration: none;
     color: #333;
+    text-decoration: none;
 }
 h1,h2,h3{
     padding-bottom: 20px;
@@ -17,83 +18,19 @@ h1,h2,h3{
 p{
     padding: 10px 0;
 }
+
+/* Utility Classes */
+.py-1{padding: 0 10px;}
+.py-2{padding: 0 20px;}
+.py-3{padding: 0 30px;}
+
 .container{
     max-width: 1100px;
     margin: auto;
     overflow: auto;
-<<<<<<< HEAD
     padding: 0 20px;
-=======
-    margin-left: 10px;
->>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
 }
-.paint-coral{
-    color: coral;
-}
-.btn{
-<<<<<<< HEAD
-    background: #333;
-    color: #fff;
-    display: inline-block;
-    padding: 8px 13px;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
-}
-.btn:hover{
-    background: coral;
-    color: #333;
-}
-.clr{
-    clear: both;
-}
-.bg-dark{
-    background: #333;
-    color: #fff;
-=======
-    background: #333;
-    color: #fff;
-    display: inline-block;
-    padding: 8px 13px;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
-}
-.btn:hover{
-    background: coral;
-    color: #333;
-}
-.clr{
-    clear: both;
-}
-.bg-dark{
-    background: #333;
-    color: #fff;
->>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
-}
-.bg-light{
-    background: #f4f4f4;
-    color: #333;
-}
-.bg-coral{
-    background: coral;
-    color: #333;
-}
-.btn-light{
-    background: #f4f4f4;
-    color: #333;
-}
-<<<<<<< HEAD
-.l-heading{
-    font-size: 40px;
-}
-.py-1{padding: 10px 0;}
-.py-2{padding: 20px 0;}
-.py-3{padding: 30px 0;}
-=======
->>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
+
 /* Navbar */
 #navbar{
     background: #333;
@@ -123,84 +60,3 @@ p{
     background: #444;
     color: coral;
 }
-/* showcase */
-#showcase{
-    background: url('../img/showcase.jpg') no-repeat center center/cover;
-    height: 600px;
-}
-#showcase .showcase-content{
-    text-align: center;
-    padding-top: 170px;
-    color: #fff;
-}
-#showcase .showcase-content h1{
-    font-size: 60px;
-    line-height: 1.5em;
-}
-#showcase .showcase-content p{
-    font-size: 18px;
-    padding-bottom: 40px;
-}
-/* Home Info */
-#home-info{
-    height: 400px;
-    overflow: hidden;
-}
-#home-info .img-info{
-    background: url('../img/photo-1.jpg') no-repeat;
-    min-height: 100%;
-    width: 50%;
-    float: left;
-}
-#home-info .content-info{
-    text-align: center;
-    padding: 50px 30px;
-    float: right;
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-}
-#home-info .content-info p{
-    padding-bottom: 50px;
-}
-/* features */
-.box{
-    float: left;
-    width: 33.33%;
-    padding: 30px;
-    text-align: center;
-}
-<<<<<<< HEAD
-/* About */
-
-#about-info .info-left{
-    float: left;
-    width: 50%;
-    min-height: 100%;
-}
-#about-info .info-right{
-    float: right;
-    width: 50%;
-    min-height: 100%;
-}
-#about-info .info-right img{
-   display: block;
-   margin: auto;
-   width: 70%;
-   border-radius: 50%;
-}
-/* Footer */
-=======
->>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
-#main-footer{
-    text-align: center;
-    background: #333;
-    color: #f4f4f4;
-    font-size: 14px;
-<<<<<<< HEAD
-}
-/* solo un comentario2 */
-/* esto va para probar */
-=======
-}
->>>>>>> 285f3f0d078e30f0e019d1c747aae11b4689b8ca
