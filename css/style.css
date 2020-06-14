@@ -36,19 +36,27 @@ p{
 .main-p{
     font-size: 20px;
 }
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
 
+.btn:hover{
+    background: coral;
+    color: #333;
+}
 .btn{
     display: inline-block;
     padding: 12px 20px;
-    background: #333;
-    color: #fff;
+    background:#333;
+    color:#fff;
     border: none;
     cursor: pointer;
     font-size: 20px;
 }
-.btn:hover{
-    background: coral;
-    color: #333;
+.btn-light{
+    background:#fff;
+    color:#333;  
 }
 
 /* Navbar */
@@ -98,4 +106,28 @@ p{
     font-size: 20px;
     padding-bottom: 30px;
     line-height: 1.7em;
+}
+/* Home Info */
+#home-info{
+    height: 400px;
+}
+#home-info .img-info{
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+    width: 50%;
+    float: left;
+}
+#home-info .content-info{
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding:80px 30px;
+    overflow: hidden;
+}
+#home-info .content-info h2{
+    font-size: 30px;
+}
+#home-info .content-info p{
+    padding-bottom: 40px;
 }
