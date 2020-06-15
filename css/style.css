@@ -40,6 +40,14 @@ p{
     background: #333;
     color: #fff;
 }
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-coral{
+    background: coral;
+    color: #333;
+}
 
 .btn:hover{
     background: coral;
@@ -130,4 +138,18 @@ p{
 }
 #home-info .content-info p{
     padding-bottom: 40px;
+}
+/* Features */
+#features{
+    height: 400px;
+    overflow: auto;
+}
+.box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+}
+.box i{
+    padding-bottom: 30px;
 }
