@@ -66,6 +66,9 @@ p{
     background:#fff;
     color:#333;  
 }
+.clr{
+    clear: both;
+}
 
 /* Navbar */
 #navbar{
@@ -145,11 +148,17 @@ p{
     overflow: auto;
 }
 .box{
-    width: 33.33%;
+    width: 33.3%;
     float: left;
     text-align: center;
     padding: 50px;
 }
 .box i{
     padding-bottom: 30px;
+}
+#main-footer{
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
 }
