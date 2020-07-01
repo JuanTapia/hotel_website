@@ -81,7 +81,7 @@ p{
 #navbar a{
     color: #fff;
 }
-#navbar h1{
+#navbar .logo{
     padding-top: 20px;
     float: left;
 }
@@ -123,7 +123,7 @@ p{
 }
 /* Home Info */
 #home-info{
-    height: 400px;
+    height: 550px;
 }
 #home-info .img-info{
     background: url('../img/photo-1.jpg') no-repeat;
@@ -179,7 +179,7 @@ p{
     border-radius: 50%;
 }
 #testimonials{
-    height: 600px;
+    height: 100%;
     background: url('../img/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
